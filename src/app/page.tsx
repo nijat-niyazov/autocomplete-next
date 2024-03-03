@@ -1,5 +1,10 @@
 import { HomeContainer } from "@/containers";
+import { Suspense } from "react";
 
 export default function Home() {
-  return <HomeContainer />;
+  return (
+    <Suspense>
+      <HomeContainer />
+    </Suspense>
+  );
 }
