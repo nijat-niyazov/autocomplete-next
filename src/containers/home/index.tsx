@@ -1,7 +1,7 @@
 "use client";
 
 import { useDebounced } from "@/hooks";
-const axios = require("axios");
+import axios from "axios";
 
 import Image from "next/image";
 import { useRouter, useSearchParams } from "next/navigation";
